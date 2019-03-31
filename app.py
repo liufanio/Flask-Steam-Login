@@ -30,7 +30,7 @@ class User(db.Model):
 
 def get_user_info(steam_id):
     options = {
-        'key': '# Steam Web API',
+        'key': 'Steam Web API',
         'steamids': steam_id
     }
     url = 'https://api.steampowered.com/ISteamUser/' \
